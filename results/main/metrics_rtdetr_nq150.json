@@ -1,0 +1,24 @@
+{
+ "run": "rtdetr_nq150",
+ "family": "rtdetr",
+ "epochs": 10,
+ "imgsz": 640,
+ "mAP": 0.1806,
+ "AP50": 0.334,
+ "AP75": 0.1713,
+ "AP_small": 0.0623,
+ "AP_medium": 0.1604,
+ "AP_large": 0.3209,
+ "ms_per_img": 55.0817,
+ "train_min": 60.1,
+ "params": {
+  "args": {},
+  "batch": 8,
+  "imgsz": 640,
+  "dec": {
+   "num_queries": 150
+  }
+ },
+ "smoke": false,
+ "note": "rebuilt from the results table; no per-class AP, no detections file"
+}

@@ -1,0 +1,23 @@
+{
+ "used": false,
+ "best": {
+  "variant": "2 previous + 2 next",
+  "offsets": "(-2, -1, 1, 2)",
+  "mode": "mix",
+  "alpha": 0.25,
+  "thr": 0.5,
+  "motion_comp": true,
+  "mAP": 0.24640632852670985,
+  "AP50": 0.4599830398551737,
+  "AP_small": 0.13714826671838182,
+  "AP_large": 0.4198649789182269,
+  "mAP_testlike": 0.2651352370233918,
+  "AP_small_testlike": 0.16256533717910396,
+  "gain_mAP_testlike": 0.0017717271568290505
+ },
+ "fusion": [
+  "wbf",
+  0.7,
+  500
+ ]
+}

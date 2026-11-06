@@ -1,6 +1,13 @@
 numpy
 pandas
 matplotlib
+tqdm
 pillow
+opencv-python
+scikit-learn
+torch
+torchvision
 ultralytics
 pycocotools
+ensemble-boxes
+jupyter

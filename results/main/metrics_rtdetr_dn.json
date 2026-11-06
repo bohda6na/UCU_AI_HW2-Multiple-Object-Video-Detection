@@ -1,0 +1,24 @@
+{
+ "run": "rtdetr_dn",
+ "family": "rtdetr",
+ "epochs": 10,
+ "imgsz": 640,
+ "mAP": 0.1926,
+ "AP50": 0.3652,
+ "AP75": 0.1771,
+ "AP_small": 0.0655,
+ "AP_medium": 0.163,
+ "AP_large": 0.3579,
+ "ms_per_img": 54.0205,
+ "train_min": 68.6,
+ "params": {
+  "args": {},
+  "batch": 8,
+  "imgsz": 640,
+  "dec": {
+   "num_denoising": 200
+  }
+ },
+ "smoke": false,
+ "note": "rebuilt from the results table; no per-class AP, no detections file"
+}

@@ -1,0 +1,23 @@
+{
+ "run": "yolo_box",
+ "family": "yolo",
+ "epochs": 10,
+ "imgsz": 640,
+ "mAP": 0.1559,
+ "AP50": 0.2944,
+ "AP75": 0.1446,
+ "AP_small": 0.063,
+ "AP_medium": 0.1311,
+ "AP_large": 0.3065,
+ "ms_per_img": 11.7948,
+ "train_min": 15.2,
+ "params": {
+  "args": {
+   "box": 12.0
+  },
+  "batch": 16,
+  "imgsz": 640
+ },
+ "smoke": false,
+ "note": "rebuilt from the results table; no per-class AP, no detections file"
+}

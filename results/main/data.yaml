@@ -1,0 +1,12 @@
+path: /kaggle/temp/hw2_sub
+train: train/images
+val: val/images
+names:
+  0: person
+  1: bicycle
+  2: car
+  3: van
+  4: truck
+  5: tricycle
+  6: bus
+  7: motor

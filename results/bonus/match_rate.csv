@@ -1,0 +1,3 @@
+motion compensation,"share matched, small","share matched, larger",n small,n larger
+False,0.958,0.95,1734,38107
+True,0.997,0.992,1734,38107
